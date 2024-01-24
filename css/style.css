@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+}
+
+.container{
+    background: blue;
+}
+
+.logo{
+    background: red;
+}
+
+.imagen1{
+    background: lawngreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen1 :nth-child(1){
+    background: red;
+    height: 300px;
+    width: 20%;
+}
+
+.imagen1 :nth-child(2){
+    background: blue;
+    width: 35%;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 20%;
+}
+
+.contenedor{
+    display: flex;
+    background: violet;
+    justify-content: space-between;
+}
+
+.contenedor .container1{
+    background: red;
+    margin-left: 30px;
+}
+
+.container1 .box:nth-child(1){
+    background: rgb(185, 158, 108);
+    width: 1000px;
+    height: 30px;
+}
+
+.container1 .box:nth-child(2){
+    background: orange;
+    width: 1000px;
+    height: 200px;
+}
+
+.container1 .box:nth-child(3){
+    background: rgb(210, 175, 112);
+    width: 1000px;
+    height: 100px;
+}
+
+
+
+
