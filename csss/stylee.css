@@ -199,3 +199,61 @@ body{
     width: 15%;
     height: 100px;
 }
+
+.containerDeLosItems{
+    display: flex;
+    margin-top: 60px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.containerDeLosItems .item1{
+    padding-right: 20px; 
+    margin-left: 30px;   
+    color:azure;
+    
+}
+
+.item1 ul{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.containerDeLosItems .item2{
+    padding-right: 20px;  
+    color:azure;
+    
+}
+
+.item2 ul{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.containerDeLosItems .item3{
+    padding-right: 20px;  
+    color:azure;
+    
+}
+
+.item3 ul{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.containerDeLosItems .item4{
+    padding-right: 20px;  
+    margin-right: 30px;
+    color:azure;
+    
+}
+
+.item4 ul{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
