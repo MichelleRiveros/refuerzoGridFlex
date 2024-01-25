@@ -25,14 +25,17 @@ body{
 }
 
 .imagen1{
+    color: azure;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
 }
 
-.imagen1 .contenedorImagen{
-    padding-top: 30px;
+.imagen1 .imagen{
+    background-image:url(storage/img/iphone15.jpg);
+    width: 50%;
+    height: 400px;
 }
+
 
 .imagen1 :nth-child(2){
     color: azure;
@@ -43,7 +46,7 @@ body{
     font-size: 20px;
     display: flex;
     justify-content:space-around;
-}
+} 
 
 .contenedor{
     display: flex;
@@ -170,4 +173,29 @@ body{
     padding-bottom: 30px;
     height: 300px;
     border: 5px solid #323232;
+}
+
+.menu1{
+    color:rgb(33, 64, 92);
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.menu1 .foto1{
+    width: 15%;
+    height: 100px;
+}
+
+.menu1 .foto2{
+    width: 15%;
+    height: 100px;
+}
+
+.menu1 .foto3{
+    width: 15%;
+    height: 100px;
 }
