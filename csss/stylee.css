@@ -5,12 +5,14 @@
 body{
     background: black;
 }
+
 .container{
     background: black;
 }
 
 .logo{
     background: black;
+    margin-top: 10px;
 }
 
 .menu{
@@ -19,65 +21,56 @@ body{
     justify-content: end;
     margin-right: 30px;
     gap: 30px;
+    font-size: 20px;
 }
 
-
 .imagen1{
-   
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.imagen1 :nth-child(1){
-    height: 300px;
-    width: 20%;
-}
-
 .imagen1 .contenedorImagen{
-    width: 100%;
-    height: auto;
-    display: block;
+    padding-top: 30px;
 }
-
 
 .imagen1 :nth-child(2){
     color: azure;
     width: 35%;
     height: 200px;
-    margin-top: 40px;
-    margin-right: 20%;
+    margin-top: 150px;
+    margin-right: 15%;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
 }
 
 .contenedor{
     display: flex;
     background: violet;
     justify-content: space-between;
+    height: 100%;
 }
+
 
 .contenedor .container1{
     background: red;
     margin-left: 30px;
+    width:50%;
 }
 
-.container1 .box:nth-child(1){
-    background: rgb(185, 158, 108);
-    width: 1000px;
-    height: 30px;
+.container1 .box{
+    font-size: 20px;
+    color:azure;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
-.container1 .box:nth-child(2){
-    background: orange;
-    width: 1000px;
-    height: 200px;
+.container1 .box2{
+    font-size: 20px;
+    color:azure;
+    justify-content: center;
 }
-
-.container1 .box:nth-child(3){
-    background: rgb(210, 175, 112);
-    width: 1000px;
-    height: 100px;
-}
-
-
 
 
