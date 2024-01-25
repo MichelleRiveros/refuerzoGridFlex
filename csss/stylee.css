@@ -22,22 +22,26 @@ body{
     margin-right: 30px;
     gap: 30px;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
-.imagen1{
+.imagen1 {
     color: azure;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(/storage/img/iphoneee.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+    font-size: 20px;
 }
 
-.imagen1 .imagen{
-    background-image:url(storage/img/iphone15.jpg);
-    width: 50%;
-    height: 400px;
-}
 
-
-.imagen1 :nth-child(2){
+/* .imagen1 :nth-child(2){
     color: azure;
     width: 35%;
     height: 200px;
@@ -46,7 +50,7 @@ body{
     font-size: 20px;
     display: flex;
     justify-content:space-around;
-} 
+}  */
 
 .contenedor{
     display: flex;
@@ -179,32 +183,34 @@ body{
     color:rgb(33, 64, 92);
     display: flex;
     justify-content: end;
-    margin-right: 30px;
-    gap: 30px;
-    margin-top: 30px;
+    margin-right: 50px;
+    margin-top: 5px;
 
 }
 
 .menu1 .foto1{
-    width: 15%;
+    width: 12%;
     height: 100px;
 }
 
 .menu1 .foto2{
-    width: 15%;
+    width: 10%;
     height: 100px;
 }
 
 .menu1 .foto3{
-    width: 15%;
+    width: 10%;
     height: 100px;
 }
 
 .containerDeLosItems{
+    background: rgb(65, 64, 64);
     display: flex;
-    margin-top: 60px;
+    margin-top: 100px;
     height: 200px;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .containerDeLosItems .item1{
@@ -257,3 +263,18 @@ body{
     gap:6px
 }
 
+.containerFooter{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background: rgb(156, 156, 156);
+    justify-content: space-between;
+}
+
+.containerFooter .footer{
+    padding-left: 10px;
+}
+
+.containerFooter .footer1{
+    padding-right: 10px;
+}
