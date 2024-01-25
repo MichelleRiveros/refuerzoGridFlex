@@ -50,17 +50,18 @@ body{
     background: violet;
     justify-content: space-between;
     height: 100%;
+    gap: 20px;
 }
 
 
 .contenedor .container1{
     background: red;
     margin-left: 30px;
-    width:50%;
+    width:40%;
 }
 
 .container1 .box{
-    font-size: 20px;
+    font-size: 30px;
     color:azure;
     display: flex;
     justify-content: center;
@@ -73,4 +74,56 @@ body{
     justify-content: center;
 }
 
+.contenedor .containerr{
+    background: blue;
+    margin-right: 30px;
+    width:40%;
+}
 
+.containerr .title{
+    font-size: 30px;
+    color:azure;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.containerr .scroll .display .box2{
+  
+    color:azure;
+    font-size: 20px;
+    padding-right: 15%;
+    padding-top: 30px;
+}
+
+.containerr .scroll .display .box3{
+  
+    color:azure;
+    font-size: 20px;
+    padding-right: 15%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.containerr .scroll .display{
+    display: flex;
+}
+
+.containerr .scroll .display1{
+    display: flex;
+}
+
+.contenedor .containerr .scroll{
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+}
