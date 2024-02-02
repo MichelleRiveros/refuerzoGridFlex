@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:url(/storage/img/iphoneee.jpg);
+    background-image:url(../storage/img/iphoneee.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
